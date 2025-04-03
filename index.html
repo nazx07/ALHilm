@@ -8,61 +8,86 @@
 </head>
 <body>
     <header>
-        <nav>
-            <div class="logo">AL-Hilm Abroad Education</div>
-            <ul>
-                <li><a href="#countries">Countries</a></li>
-                <li><a href="#courses">Courses</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#contact">Contact Us</a></li>
-            </ul>
-        </nav>
+        <div class="container">
+            <h1>AL-Hilm Abroad Education</h1>
+            <p>Unlock Your Future With Us</p>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li class="dropdown">
+                        <a href="#countries">Countries</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#egypt">Egypt</a></li>
+                            <li><a href="#georgia">Georgia</a></li>
+                            <li><a href="#uk">United Kingdom</a></li>
+                            <li><a href="#uzbekistan">Uzbekistan</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#courses">Courses</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#medicine">Medicine</a></li>
+                            <li><a href="#veterinary">Veterinary</a></li>
+                            <li><a href="#dental">Dental</a></li>
+                            <li><a href="#engineering">Engineering</a></li>
+                            <li><a href="#mba">MBA</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
     
-    <section class="hero">
-        <h1>MBBS in Egypt</h1>
-        <p>Unlock Your Future With Us</p>
+    <section id="hero">
+        <div class="container">
+            <h2>MBBS in Egypt</h2>
+            <p>Study in Egypt's top universities with world-class education and global recognition.</p>
+            <a href="#register" class="btn">Apply Now</a>
+        </div>
     </section>
-    
-    <section id="countries" class="section">
-        <h2>Countries</h2>
-        <ul>
-            <li>Egypt</li>
-            <li>Georgia</li>
-            <li>United Kingdom</li>
-            <li>Uzbekistan</li>
-        </ul>
+
+    <section id="universities">
+        <div class="container">
+            <h2>Top Universities in Egypt</h2>
+            <div class="university-list">
+                <div class="university">
+                    <img src="cairo-university.jpg" alt="Cairo University">
+                    <h3>Cairo University</h3>
+                    <p>One of the oldest and most prestigious universities in Egypt.</p>
+                </div>
+                <div class="university">
+                    <img src="ainshams-university.jpg" alt="Ain Shams University">
+                    <h3>Ain Shams University</h3>
+                    <p>Well-known for its excellent faculty and research programs.</p>
+                </div>
+            </div>
+        </div>
     </section>
-    
-    <section id="courses" class="section">
-        <h2>Courses</h2>
-        <ul>
-            <li>Medicine</li>
-            <li>Veterinary</li>
-            <li>Dental</li>
-            <li>Engineering</li>
-            <li>MBA</li>
-        </ul>
+
+    <section id="register">
+        <div class="container">
+            <h2>Register Now</h2>
+            <form>
+                <input type="text" placeholder="Full Name" required>
+                <input type="email" placeholder="Email" required>
+                <input type="tel" placeholder="Phone Number" required>
+                <select>
+                    <option>Select Course</option>
+                    <option>MBBS</option>
+                    <option>Engineering</option>
+                    <option>MBA</option>
+                </select>
+                <button type="submit" class="btn">Submit</button>
+            </form>
+        </div>
     </section>
-    
-    <section id="services" class="section">
-        <h2>Services</h2>
-        <ul>
-            <li>Visa Assistance</li>
-            <li>Air Ticket</li>
-            <li>Other Services</li>
-        </ul>
-    </section>
-    
-    <section id="contact" class="section">
-        <h2>Contact Us</h2>
-        <p>Phone: +91 813699085</p>
-        <p>Email: alhilmabroadeducation786@gmail.com</p>
-        <p>WhatsApp & Instagram: <a href="https://www.instagram.com/al_hilm_abroad">@al_hilm_abroad</a></p>
-    </section>
-    
+
     <footer>
-        <p>&copy; 2025 AL-Hilm Abroad Education. All Rights Reserved.</p>
+        <div class="container">
+            <p>&copy; 2025 AL-Hilm Abroad Education. All Rights Reserved.</p>
+        </div>
     </footer>
 </body>
 </html>
