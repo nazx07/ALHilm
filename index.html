@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AL-Hilm Abroad Education - Unlock Your Future</title>
-   <link rel="stylesheet" href="style.css?v=2">
+    <link rel="stylesheet" href="style.css?v=2">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -43,7 +43,6 @@
     <section id="countries" class="countries">
         <div class="container">
             <h2>Study Destinations</h2>
-            <p>Explore our partner universities across the globe:</p>
             <ul>
                 <li>🇪🇬 <strong>Egypt</strong> - Renowned medical institutions</li>
                 <li>🇬🇪 <strong>Georgia</strong> - Affordable education with European standards</li>
@@ -57,7 +56,6 @@
     <section id="courses" class="courses">
         <div class="container">
             <h2>Programs We Offer</h2>
-            <p>Our consultancy provides assistance in various academic fields, including:</p>
             <ul>
                 <li>🏥 <strong>Medicine (MBBS, BDS, Veterinary)</strong></li>
                 <li>🛠️ <strong>Engineering (Computer, Electrical, Civil, Mechanical)</strong></li>
@@ -70,7 +68,6 @@
     <section id="services" class="services">
         <div class="container">
             <h2>Our Services</h2>
-            <p>We offer complete guidance to students, ensuring a hassle-free admission process.</p>
             <ul>
                 <li>✅ <strong>University Selection</strong></li>
                 <li>✅ <strong>Application Assistance</strong></li>
@@ -84,10 +81,29 @@
     <section id="contact" class="contact">
         <div class="container">
             <h2>Contact Us</h2>
-            <p>Have any questions? Reach out to us!</p>
+            <p>Have any questions? Fill out the form below and we’ll get back to you soon!</p>
+            <form action="send_email.php" method="POST">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="place">Place</label>
+                <input type="text" id="place" name="place" required>
+
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="destination">Preferred Destination</label>
+                <input type="text" id="destination" name="destination" required>
+
+                <label for="course">Preferred Course</label>
+                <input type="text" id="course" name="course" required>
+
+                <button type="submit">Submit</button>
+            </form>
             <p>Email: <a href="mailto:alhilmabroadeducation786@gmail.com">alhilmabroadeducation786@gmail.com</a></p>
-            <p>Phone: +91 813699085</p>
-            <p>Follow us: <a href="https://www.facebook.com/alhilmabroad">Facebook</a> | <a href="https://www.instagram.com/al_hilm_abroad/">Instagram</a></p>
         </div>
     </section>
 
