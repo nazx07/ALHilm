@@ -8,6 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 <body>
+
     <header>
         <div class="container">
             <h1>AL-Hilm Abroad Education</h1>
@@ -83,41 +84,23 @@
             <h2>Contact Us</h2>
             <p>Have any questions? Fill in the form below, and we’ll get back to you soon.</p>
             <form action="submit_form.php" method="POST">
-                <div class="form-group">
-                    <label for="name">Full Name:</label>
-                    <input type="text" id="name" name="name" required>
-                </div>
-                <div class="form-group">
-                    <label for="place">Place:</label>
-                    <input type="text" id="place" name="place" required>
-                </div>
-                <div class="form-group">
-                    <label for="phone">Phone Number:</label>
-                    <input type="tel" id="phone" name="phone" required>
-                </div>
-                <div class="form-group">
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" name="email" required>
-                </div>
-                <div class="form-group">
-                    <label for="destination">Preferred Destination:</label>
-                    <select id="destination" name="destination">
-                        <option value="Egypt">Egypt</option>
-                        <option value="Georgia">Georgia</option>
-                        <option value="UK">United Kingdom</option>
-                        <option value="Uzbekistan">Uzbekistan</option>
-                        <option value="Canada">Canada</option>
-                    </select>
-                </div>
-                <div class="form-group">
-                    <label for="course">Course of Interest:</label>
-                    <select id="course" name="course">
-                        <option value="MBBS">MBBS</option>
-                        <option value="Engineering">Engineering</option>
-                        <option value="MBA">MBA</option>
-                        <option value="Nursing">Nursing</option>
-                    </select>
-                </div>
+                <input type="text" name="name" placeholder="Full Name" required>
+                <input type="text" name="place" placeholder="Place" required>
+                <input type="tel" name="phone" placeholder="Phone Number" required>
+                <input type="email" name="email" placeholder="Email" required>
+                <select name="destination">
+                    <option value="Egypt">Egypt</option>
+                    <option value="Georgia">Georgia</option>
+                    <option value="UK">United Kingdom</option>
+                    <option value="Uzbekistan">Uzbekistan</option>
+                    <option value="Canada">Canada</option>
+                </select>
+                <select name="course">
+                    <option value="MBBS">MBBS</option>
+                    <option value="Engineering">Engineering</option>
+                    <option value="MBA">MBA</option>
+                    <option value="Nursing">Nursing</option>
+                </select>
                 <button type="submit" class="btn">Submit</button>
             </form>
         </div>
@@ -128,5 +111,6 @@
             <p>&copy; 2025 AL-Hilm Abroad Education. All Rights Reserved.</p>
         </div>
     </footer>
+
 </body>
 </html>
