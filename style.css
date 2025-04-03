@@ -1,24 +1,20 @@
-/* General Styles */
 body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f8f9fa;
-    color: #333;
+    box-sizing: border-box;
 }
 
 .container {
     width: 80%;
-    margin: auto;
+    margin: 0 auto;
     text-align: center;
 }
 
-/* Header */
 header {
     background: #004080;
     color: white;
     padding: 20px 0;
-    text-align: center;
 }
 
 nav ul {
@@ -37,44 +33,60 @@ nav ul li a {
     font-weight: 600;
 }
 
-nav ul li a:hover {
-    text-decoration: underline;
-}
-
-/* Hero Section */
 .hero {
-    background: url('hero.jpg') no-repeat center center/cover;
+    background: url('hero-bg.jpg') no-repeat center center/cover;
     color: white;
-    padding: 100px 0;
+    padding: 50px 0;
 }
 
 .btn {
     display: inline-block;
-    background: #ff9800;
+    background: #0084ff;
     color: white;
     padding: 10px 20px;
-    text-decoration: none;
     border-radius: 5px;
-    font-weight: 600;
+    text-decoration: none;
+    font-weight: bold;
 }
 
-.btn:hover {
-    background: #e68900;
-}
-
-/* Sections */
 section {
     padding: 50px 0;
 }
 
-h2 {
-    color: #004080;
+.contact form {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: left;
 }
 
-/* Footer */
-footer {
+.contact label {
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+}
+
+.contact input, .contact select, .contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact button {
     background: #004080;
     color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 15px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+footer {
+    background: #222;
+    color: white;
     text-align: center;
-    padding: 20px 0;
+    padding: 15px 0;
 }
