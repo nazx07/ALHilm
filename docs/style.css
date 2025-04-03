@@ -1,10 +1,10 @@
-/* styles.css */
+/* Enhanced styles.css */
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Poppins', Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #f9f9f9;
     color: #333;
 }
 
@@ -13,43 +13,63 @@ header {
     color: white;
     text-align: center;
     padding: 20px 0;
+    font-size: 24px;
+    font-weight: bold;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+nav {
+    background: #005bb5;
+    padding: 10px 0;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 
 nav ul {
     list-style: none;
     padding: 0;
-    text-align: center;
-    background: #005bb5;
     margin: 0;
 }
 
 nav ul li {
     display: inline;
-    padding: 15px;
+    margin: 0 15px;
 }
 
 nav ul li a {
     color: white;
     text-decoration: none;
     font-size: 18px;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ffcc00;
 }
 
 section {
-    padding: 20px;
+    padding: 40px;
     text-align: center;
 }
 
 h2 {
     color: #0073e6;
+    font-size: 28px;
+    margin-bottom: 20px;
 }
 
 button {
     background-color: #0073e6;
     color: white;
-    padding: 10px 20px;
+    padding: 12px 25px;
     border: none;
     cursor: pointer;
     font-size: 16px;
+    border-radius: 5px;
+    transition: 0.3s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
 }
 
 button a {
@@ -59,6 +79,7 @@ button a {
 
 button:hover {
     background-color: #005bb5;
+    transform: scale(1.05);
 }
 
 ul {
@@ -68,14 +89,26 @@ ul {
 
 ul li {
     margin: 10px 0;
+    font-size: 18px;
+    background: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+}
+
+ul li:hover {
+    transform: translateY(-3px);
 }
 
 footer {
     background-color: #0073e6;
     color: white;
     text-align: center;
-    padding: 10px 0;
+    padding: 15px 0;
+    font-size: 16px;
     position: relative;
     bottom: 0;
     width: 100%;
+    box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.2);
 }
