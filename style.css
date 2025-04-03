@@ -1,0 +1,80 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+/* Header */
+header {
+    background: #004080;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+    background: url('hero.jpg') no-repeat center center/cover;
+    color: white;
+    padding: 100px 0;
+}
+
+.btn {
+    display: inline-block;
+    background: #ff9800;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+.btn:hover {
+    background: #e68900;
+}
+
+/* Sections */
+section {
+    padding: 50px 0;
+}
+
+h2 {
+    color: #004080;
+}
+
+/* Footer */
+footer {
+    background: #004080;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
