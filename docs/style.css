@@ -1,18 +1,16 @@
-/* General Styles */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
     color: #333;
-    text-align: center;
 }
 
-/* Header */
 header {
-    background: #0073e6;
+    background-color: #004080;
     color: white;
-    padding: 20px;
+    padding: 1rem 0;
+    text-align: center;
 }
 
 nav ul {
@@ -31,63 +29,25 @@ nav ul li a {
     font-weight: bold;
 }
 
-/* Hero Section */
 .hero {
-    background: url('https://source.unsplash.com/1600x900/?education,students') center/cover no-repeat;
-    height: 300px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    background: url('hero-bg.jpg') no-repeat center center/cover;
     color: white;
-    flex-direction: column;
-    padding: 20px;
+    text-align: center;
+    padding: 100px 20px;
+    font-size: 1.5rem;
 }
 
-/* Sections */
-section {
-    padding: 40px 20px;
-}
-
-/* Universities */
-.university {
-    margin: 20px 0;
-}
-
-.university img {
-    width: 100%;
-    max-width: 500px;
+.section {
+    padding: 50px;
+    background: white;
+    margin: 20px;
     border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Registration Form */
-form {
-    display: flex;
-    flex-direction: column;
-    width: 50%;
-    margin: auto;
-}
-
-input, select, button {
-    margin: 10px 0;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-
-button {
-    background: #0073e6;
-    color: white;
-    border: none;
-    cursor: pointer;
-}
-
-button:hover {
-    background: #005bb5;
-}
-
-/* Footer */
 footer {
-    background: #222;
+    text-align: center;
+    background: #004080;
     color: white;
-    padding: 15px;
+    padding: 10px 0;
 }
